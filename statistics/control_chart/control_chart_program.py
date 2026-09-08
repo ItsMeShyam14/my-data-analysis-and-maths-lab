@@ -23,8 +23,8 @@ Sigma = statistics.stdev(some_list)
 (Mu, Sigma) = (round(Mu, 2), round(Sigma, 2))
 
 # Now compute the control limits
-ucl = Mu + 2 * Sigma # Upper control limit
-lcl = Mu - 2 * Sigma # Lower control limit
+ucl = Mu + 3 * Sigma # Upper control limit
+lcl = Mu - 3 * Sigma # Lower control limit
 ucl, lcl = round(ucl, 2), round(lcl, 2)
 
 # Log the results
